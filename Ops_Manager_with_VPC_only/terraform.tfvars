@@ -16,10 +16,10 @@ Ops_Manager_Decryption-Passphrase = "atornike"
 
 /* 
 Use Wild card to find and deploy latest version of Ops Manager "pivotal-ops-manager-*" !!!
-To find specific Ops Manager AMI in AWS edit the value specifing a version "pivotal-ops-manager-v3.0.3*" 
+To find specific Ops Manager AMI in AWS edit the value specifying a version "pivotal-ops-manager-v3.0.3*" 
 */
 Ops_Manager_Version = "pivotal-ops-manager-v3.0.15*"
-// AWS specific VM (Instance) Type
+// AWS specific VM (Instance) Type (Ops Manager VM type)
 Ops_Manager_Instance_Type = "t3.xlarge"
 // Name of Ops Manager VM deployed in AWS. To identify the VM in AWS GUI.
 Ops_Manager_Instance_Name = "Ops_Manager"
@@ -29,7 +29,7 @@ PEM_Key_to_ssh_in_Ops_Man_VM = "vmware"
 // VPC Cidr_block
 vpc_cidr_block = "10.0.0.0/22"
 // VPC Name
-VPC_Name = "TF_Lab_VPC"
+VPC_Name = "VPC_TAS_Lab"
 
 // Subnet Names
 Subnets_Names = ["Main_Net_A_0.0/24","Pub_Sub_B_1.0/24","Pub_Sub_C_2.0/24","Pri_Sub_B_3.0/25","Pri_Sub_B_3.128/25"]
