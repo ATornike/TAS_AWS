@@ -5,6 +5,15 @@ aws_region = "us-east-1"
 access_key = "my_AWS_access_key"
 secret_key = "my_AWS_secret_key"
 
+// Tanzu Network Pivnet Token
+pivnet_token = "my_pivnet_token"
+
+// Initialize Ops_Manager VM for the first time. Add User, Password and Ops_Manager Decryption-Passphrase of your choice
+Ops_Manager_Username = "atornike"
+Ops_Manager_Password = "atornike"
+Ops_Manager_Decryption-Passphrase = "atornike"
+
+
 /* 
 Use Wild card to find and deploy latest version of Ops Manager "pivotal-ops-manager-*" !!!
 To find specific Ops Manager AMI in AWS edit the value specifing a version "pivotal-ops-manager-v3.0.3*" 
@@ -16,12 +25,6 @@ Ops_Manager_Instance_Type = "t3.xlarge"
 Ops_Manager_Instance_Name = "Ops_Manager"
 // Name of PEM key to ssh into the Ops Manager
 PEM_Key_to_ssh_in_Ops_Man_VM = "vmware"
-
-// Tanzu Network Pivnet Token
-pivnet_token = "yCeHiGwXysrBxtL4gsgy"
-Ops_Manager_Username = "tornike"
-Ops_Manager_Password = "tornike"
-Ops_Manager_Decryption-Passphrase = "tornike"
 
 // VPC Cidr_block
 vpc_cidr_block = "10.0.0.0/22"
