@@ -1,3 +1,3 @@
-# TAS_AWS
-Allows you to dynamycally create AWS resources and Ops Manager VM, after the Ops Manager VM get created Bosh Director Tile will be fully configured and Apply Change will be triggered.
-
+# VMware Ops Manager and Bosh Director Deployment with Terraform
+# Overview
+This project aims to automate the deployment of VMware Ops Manager and the configuration of Bosh Director in AWS using Terraform. The infrastructure is designed to be customizable, allowing users to dynamically create and manage the required resources.
