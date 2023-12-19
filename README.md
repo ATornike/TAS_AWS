@@ -5,6 +5,6 @@ This project aims to automate the deployment of VMware Ops Manager and the confi
 # Usage
 Edit the terraform.tfvars file to customize variables.
 
-Run terraform init to initialize the Terraform configuration.
+Run `terraform init` to initialize the Terraform configuration.
 
-Run terraform apply to apply the configuration and deploy Ops Manager and Bosh Director.
+Run `terraform apply` to apply the configuration and deploy Ops Manager and Bosh Director.
