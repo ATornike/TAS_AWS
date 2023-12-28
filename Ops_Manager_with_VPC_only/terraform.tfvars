@@ -63,6 +63,6 @@ Sec_Group_Bosh_Deployed_VMs_Ports = [
 ]
 
 
-s3_buckets = [ "tas-ops-manager-bucket", "tas-buildpacks-bucket", "tas-packages-bucket", "tas-resources-bucket", "tas-droplets-bucket" ]
+// s3_buckets = [ "tas-ops-manager-bucket", "tas-buildpacks-bucket", "tas-packages-bucket", "tas-resources-bucket", "tas-droplets-bucket" ]
 
 
