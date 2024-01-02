@@ -1,5 +1,5 @@
 /*
-Bosh Director (Tile Configuration) manifest will be created with AWS resourses dynamically allocated to the manifest file.
+Bosh Director (Tile Configuration) manifest will be created with AWS resources dynamically allocated to the manifest file.
 This file (local) is used to create the file in Ops Manager VM and to configure the Bosh Director Tile.
 */
 
