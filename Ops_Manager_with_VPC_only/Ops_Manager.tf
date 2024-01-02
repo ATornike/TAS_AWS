@@ -110,13 +110,11 @@ resource "time_sleep" "wait_3m" {
       "chmod +x pivnet-linux*",
       "sudo cp pivnet-linux* /usr/local/bin/pivnet",
 
-      "pivnet login --api-token='${var.pivnet_token}'",
-
-
-
       "echo '${local.bosh_iaas_config_file}' >> director_config.yaml",
       "om -t https://${aws_eip_association.eip_assoc.public_ip}/ -u ${var.Ops_Manager_Username} -p ${var.Ops_Manager_Password} -k configure-director -c director_config.yaml",
       "om -t https://${aws_eip_association.eip_assoc.public_ip}/ -u ${var.Ops_Manager_Username} -p ${var.Ops_Manager_Password} -k curl -p /api/v0/installations -x POST -d '${local.apply_changes_all_tiles}'",
+
+      "pivnet login --api-token='${var.pivnet_token}'",
 
     ]
   }
