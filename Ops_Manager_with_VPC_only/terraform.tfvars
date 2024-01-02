@@ -6,7 +6,7 @@ access_key = "aws_access_key"
 secret_key = "aws_secret_key"
 
 /* 
-EC2 key pair needs to be create and specified.
+EC2 key pair needs to be created and specified.
 Used under iaas-configurations in bosh_director_config.tf file for (key_pair_name) and (ssh_private_key)
 EC2_pem_key needs to be in one line format used in ssh_private_key 
 */
