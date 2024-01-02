@@ -38,8 +38,8 @@ EC2_pem_key = <<EOT
 EOT
 
 /* 
-Use Wild card to find and deploy latest version of Ops Manager "pivotal-ops-manager-*" !!!
-To find specific Ops Manager AMI in AWS edit the value specifing a version "pivotal-ops-manager-v3.0.3*" 
+Use Wild card to find and deploy the latest version of Ops Manager "pivotal-ops-manager-*" !!!
+To find a specific Ops Manager AMI in AWS edit the value specifying a version "pivotal-ops-manager-v3.0.3*" 
 */
 Ops_Manager_Version = "pivotal-ops-manager-v2.10.*"
 // AWS specific VM (Instance) Type
