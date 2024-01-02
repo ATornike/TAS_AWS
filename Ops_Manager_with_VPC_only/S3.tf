@@ -1,5 +1,5 @@
 variable "s3_buckets" {
-  // The buckets are manually be added to the IAM Policy!! 
+  // The buckets are dynamically added to the IAM Policy!! 
   description = "Creates S3 buckets needed for TAS"
   type        = list(string)
   default     = ["tas-ops-manager-bucket-123", "tas-buildpacks-bucket-123", "tas-packages-bucket-123", "tas-resources-bucket-123", "tas-droplets-bucket-123"]
