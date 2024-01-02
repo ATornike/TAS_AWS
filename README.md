@@ -20,4 +20,5 @@ Run `terraform apply --auto-approve` to apply the configuration and deploy Ops M
 You can edit all the variables **terraform.tfvars** file.
 
 You can select a specific version of the Ops Manager **Ops_Manager_Version**. 
+
 **pivnet_token** token can be set in the Ops Manager VM.
