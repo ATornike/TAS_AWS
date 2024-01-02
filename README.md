@@ -16,6 +16,7 @@ Run `terraform init` to initialize the Terraform configuration.
 Run `terraform apply --auto-approve` to apply the configuration and deploy Ops Manager and Bosh Director.
 
 **To destroy**, you first need to manually destroy the Bosh Director VM and the VMs created by the Bosh Director.
+
 Run `terraform destroy --auto-approve` all cloud resourses will be destroyed
 
 # Additional configuration options
