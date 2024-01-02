@@ -2,7 +2,7 @@
 
 resource "aws_eip" "Public_IP" {
   instance = aws_instance.Ops_Manager_VM.id
-  vpc      = true
+  domain   = "vpc"
   tags = {
     Name = "Ops_Manager_VM_IP"
   }
