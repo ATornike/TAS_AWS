@@ -7,4 +7,4 @@ Edit the terraform.tfvars file to customize variables.
 
 Run `terraform init` to initialize the Terraform configuration.
 
-Run `terraform apply` to apply the configuration and deploy Ops Manager and Bosh Director.
+Run `terraform apply --auto-approve` to apply the configuration and deploy Ops Manager and Bosh Director.
