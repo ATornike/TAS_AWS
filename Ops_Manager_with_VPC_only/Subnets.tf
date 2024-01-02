@@ -1,9 +1,9 @@
-//List of cidr blocks"
+//List of CIDR blocks"
 //List of Availability Zones in AWS. Only 3 unique are listed, some AWS Regions have only 3 Availability Zones. 
-//Can be modify based on the targeted Region 
+//Can be modified based on the targeted Region 
 //List of names. Will be used to name Subnets.
 //List of Availability Zones in AWS. Only 3 unique are listed, some AWS Regions have only 3 Availability Zones. 
-//Can be modify based on the targeted Region 
+//Can be modified based on the targeted Region 
 
 variable "Subnet_Cidrs_AZs_Names" {
   type = list(object({
