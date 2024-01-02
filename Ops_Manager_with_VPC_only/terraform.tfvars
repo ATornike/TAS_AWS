@@ -55,9 +55,9 @@ iam_instance_profile_name = "VM-role-ops-manager-role-12345"
 // Tanzu Network Pivnet Token
 pivnet_token = "Pivnet_Token"
 // Ops Manager inital credential setup. Username, Password and Decryption-Passphrase
-Ops_Manager_Username              = "tornike"
-Ops_Manager_Password              = "tornike"
-Ops_Manager_Decryption-Passphrase = "tornike"
+Ops_Manager_Username              = "vmware"
+Ops_Manager_Password              = "vmware"
+Ops_Manager_Decryption-Passphrase = "vmware"
 
 // VPC Cidr_block
 VPC_Cidr_Block = "10.0.0.0/22"
