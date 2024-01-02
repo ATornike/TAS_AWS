@@ -11,6 +11,16 @@ variable "PEM_Key_to_ssh_in_Ops_Man_VM" {
   type = string
 }
 
+// Name of the PEM key used in the Ops_Manager.tf and bosh_director_config.tf files. to create the VM and to configure Bosh Director Tile. 
+variable "EC2_pem_key_name" {
+  type = string
+}
+// Used in the Ops_Manager.tf and bosh_director_config.tf files. 
+// In Ops_Manager.tf it is used to ssh into Newly created Ops Manager VM and configure director.
+variable "EC2_pem_key" {
+  type = string
+}
+
 //configure-authentication --username=vmware --password=vmware --decryption-passphrase=vmware pivnet_API_Token
 variable "Ops_Manager_Username" {
   type    = string
