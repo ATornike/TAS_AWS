@@ -3,6 +3,10 @@ Bosh Director (Tile Configuration) manifest will be created with AWS resourses d
 This file (local) is used to create the file in Ops Manager VM and to configure the Bosh Director Tile.
 */
 
+// Select Subnet name that you defined in Subnet_Cidrs_AZs_Names variable to Deploy Bosh director in that subnet.
+variable "Place_Bosh_Director_in_Subnet_Name" {
+  type = string
+}
 
 locals {
 /*
