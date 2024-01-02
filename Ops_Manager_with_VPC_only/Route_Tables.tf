@@ -1,4 +1,4 @@
-// Create Route tables and asossiate subnets
+// Create Route tables and associated subnets
 
 variable "Route_Table_Names" {
   type        = list(string)
