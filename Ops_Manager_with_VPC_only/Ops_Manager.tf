@@ -76,7 +76,7 @@ resource "time_sleep" "wait_3m" {
   depends_on = [aws_instance.Ops_Manager_VM]
 
   create_duration = "3m"
-// Inital setup of Ops Manager User, Password and Decryption Passphrase.
+// Initial setup of Ops Manager User, Password and Decryption Passphrase.
   provisioner "local-exec" {
     command = "om -t https://${aws_eip.Public_IP.public_ip}/ -k configure-authentication --username=${var.Ops_Manager_Username} --password=${var.Ops_Manager_Password} --decryption-passphrase=${var.Ops_Manager_Decryption-Passphrase}"
   }
