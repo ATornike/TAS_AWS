@@ -54,7 +54,7 @@ iam_instance_profile_name = "VM-role-ops-manager-role-12345"
 
 // Tanzu Network Pivnet Token
 pivnet_token = "Pivnet_Token"
-// Ops Manager inital credential setup. Username, Password and Decryption-Passphrase
+// Ops Manager initial credential setup. Username, Password and Decryption-Passphrase
 Ops_Manager_Username              = "vmware"
 Ops_Manager_Password              = "vmware"
 Ops_Manager_Decryption-Passphrase = "vmware"
@@ -74,7 +74,7 @@ Subnet_Cidrs_AZs_Names = [
   { subnet = "10.0.3.128/25", subnet_AZ = "us-east-1c", subnet_name = "Pri-Sub-C-3-128-25", public_private = "private" }
   //{ subnet = "", subnet_AZ = "", subnet_name = "" }
 ]
-// Name of the subnet to place Bosh director, variable Subnet_Cidrs_AZs_Names nneds to be value of subnet_name
+// Name of the subnet to place Bosh director, variable Subnet_Cidrs_AZs_Names needs to be value of subnet_name
 Place_Bosh_Director_in_Subnet_Name = "Pri-Sub-A-2-0-24"
 
 
