@@ -9,7 +9,7 @@ You will need to create and specify the values for the below variables defined i
 AWS **access_key** and secret **secret_key**. <br>
 **EC2_pem_key_name** is the name of the PEM key and **EC2_pem_key** is the actual key itself. It is a set of security credentials that you use to prove your identity when connecting to a VM.
 
-The values for s3_buckets have to be globally unique, **the S3 bucket names must follow the format specified in AWS doc https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html**
+The values for **s3_buckets** variable have to be globally unique, **the S3 bucket names must follow the format specified in AWS doc https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html**
 
 Run `terraform init` to initialize the Terraform configuration.
 
