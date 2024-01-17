@@ -11,6 +11,10 @@ AWS **access_key** and secret **secret_key**. <br>
 
 The values for **s3_buckets** variable have to be globally unique, **the S3 bucket names must follow the format specified in AWS doc https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html**
 
+Optionally, you can specify the version of the Ops Manager and VM size in the **terraform.tfvars** file. <br>
+**Pivnet** and **OM CLI** are installed on the Ops Manager VM, and a Pivnet token can be specified.
+
+
 Run `terraform init` to initialize the Terraform configuration.
 
 Run `terraform apply --auto-approve` to apply the configuration and deploy Ops Manager and Bosh Director.
