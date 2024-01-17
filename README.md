@@ -27,8 +27,7 @@ Run `terraform apply --auto-approve` to apply the configuration and deploy Ops M
 Run `terraform destroy --auto-approve` all cloud resourses including the Ops Manager VM will be destroyed.
 
 # Additional configuration options
-You can edit all the variables **terraform.tfvars** file.
+You can edit all the variables in **terraform.tfvars** file.
 
-You can select a specific version of the Ops Manager **Ops_Manager_Version**. 
-
-If the **pivnet_token** token is not set in **terraform.tfvars** file the apply will fail, but Ops Manager will be created.
+You can change and edit the Cider to specify the size of networks. You can choose whether the network has access to the public web. <br>
+The security group ports can be edited. The `ports = 0` value defined in the Security Group variable allows access to all ports only within the VPC networks.
