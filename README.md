@@ -33,3 +33,8 @@ You can modify and edit the Cider to specify the size of networks. <br>
 You have the option to choose whether the network has access to the public web or is private by adding the `public_private = "public"` or `public_private = "private"`. <br>
 
 The security group ports can be edited. The `ports = 0` value, defined in the Security Group variable, allows access to all ports only within the VPC networks.
+
+# Bosh Director Configuration
+The **bosh_director_config.tf** file is configuring the bosh director all IaaS resourse values are appened dynamically and can be modified as needed.
+
+To place Bosh Director VM in a desired subnet add the name of the subnet from **Subnet_Cidrs_AZs_Names** variable option **subnet_name** to **Place_Bosh_Director_in_Subnet_Name**. Done in **terraform.tfvars** file.
