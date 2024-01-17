@@ -5,7 +5,7 @@ The infrastructure is designed to be customizable, allowing users to dynamically
 
 # Usage
 Edit the terraform.tfvars file to customize variables. <br>
-You will need to specify the values for the below variables defined in **terraform.tfvars** file. 
+You will need to specify the values for the below variables defined in **terraform.tfvars** file. <br>
 AWS **access_key** and secret **secret_key**.
 **EC2_pem_key_name** is the name of the PEM key and **EC2_pem_key** is the actual key itself. It is a set of security credentials that you use to prove your identity when connecting to a VM.
 
