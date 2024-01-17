@@ -38,3 +38,8 @@ The security group ports can be edited. The `ports = 0` value, defined in the Se
 The **bosh_director_config.tf** file is configuring the bosh director all IaaS resourse values are appened dynamically and can be modified as needed.
 
 To place Bosh Director VM in a desired subnet add the name of the subnet from **Subnet_Cidrs_AZs_Names** variable option **subnet_name** to **Place_Bosh_Director_in_Subnet_Name**. Done in **terraform.tfvars** file.
+
+
+The **bosh_director_config.tf** file configures the Bosh Director, with all IaaS resource values dynamically appended and can be modifiable as needed.
+
+To place Bosh Director VM in a desired subnet, add the name of the subnet from the **Subnet_Cidrs_AZs_Names** variable option **subnet_name** to the **Place_Bosh_Director_in_Subnet_Name** variable. This is done in the **terraform.tfvars** file.
