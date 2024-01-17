@@ -4,7 +4,7 @@ This project aims to automate the deployment of VMware Ops Manager and the confi
 The infrastructure is designed to be customizable, allowing users to dynamically create and manage the required resources.
 
 # Usage
-Edit the terraform.tfvars file to customize variables. <br>
+Edit the **terraform.tfvars** file to customize variables. <br>
 You will need to create and specify the values for the below variables defined in **terraform.tfvars** file. <br>
 AWS **access_key** and secret **secret_key**. <br>
 **EC2_pem_key_name** is the name of the PEM key and **EC2_pem_key** is the actual key itself. It is a set of security credentials that you use to prove your identity when connecting to a VM.
