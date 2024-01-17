@@ -32,4 +32,4 @@ You can edit all the variables in **terraform.tfvars** file.
 You can modify and edit the Cider to specify the size of networks. <br> 
 You have the option to choose whether the network has access to the public web or is private by adding the `public_private = "public"` or `public_private = "private"`. <br>
 
-The security group ports can be edited. The ports = 0 value, defined in the Security Group variable, allows access to all ports only within the VPC networks.
+The security group ports can be edited. The `ports = 0` value, defined in the Security Group variable, allows access to all ports only within the VPC networks.
