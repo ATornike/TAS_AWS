@@ -10,7 +10,7 @@ output "Out_Bosh_VMs_Sec_Group_ID" {
 
 output "Ops_Manager_Public_IP" {
   description = "Public IP address of Ops Manager is Associated Elastic IP to Ops Manager VM"
-  value       = aws_eip_association.eip_assoc.public_ip
+  value       = aws_eip_association.eip_association.public_ip
 }
 
 
