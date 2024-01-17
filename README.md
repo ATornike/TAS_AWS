@@ -14,6 +14,7 @@ The values for **s3_buckets** variable have to be globally unique, **the S3 buck
 Optionally, you can specify the version of the Ops Manager and VM size in the **terraform.tfvars** file. <br>
 **Pivnet** and **OM CLI** are installed on the Ops Manager VM, and a Pivnet token can be specified. 
 <br>
+<br>
 **NOTE** If the pivnet_token is not set in the terraform.tfvars file, the apply will fail, but Ops Manager will still be created. <br>
 You can add any value to the pivnet_token to prevent failure.
 
