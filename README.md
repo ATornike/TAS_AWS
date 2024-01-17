@@ -29,5 +29,7 @@ Run `terraform destroy --auto-approve` all cloud resourses including the Ops Man
 # Additional configuration options
 You can edit all the variables in **terraform.tfvars** file.
 
-You can change and edit the Cider to specify the size of networks. You can choose whether the network has access to the public web. <br>
-The security group ports can be edited. The `ports = 0` value defined in the Security Group variable allows access to all ports only within the VPC networks.
+You can modify and edit the Cider to specify the size of networks. <br> 
+You have the option to choose whether the network has access to the public web or is private by adding the `public_private = "public"` or `public_private = "private"`. <br>
+
+The security group ports can be edited. The ports = 0 value, defined in the Security Group variable, allows access to all ports only within the VPC networks.
