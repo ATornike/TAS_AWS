@@ -7,9 +7,6 @@ variable "Ops_Manager_Instance_Type" {
 variable "Ops_Manager_Instance_Name" {
   type = string
 }
-variable "PEM_Key_to_ssh_in_Ops_Man_VM" {
-  type = string
-}
 
 // Name of the PEM key used in the Ops_Manager.tf and bosh_director_config.tf files. to create the VM and to configure Bosh Director Tile. 
 variable "EC2_pem_key_name" {
@@ -60,7 +57,7 @@ data "aws_ami" "pivital_ami" {
 resource "aws_instance" "Ops_Manager_VM" {
   ami                         = data.aws_ami.pivital_ami.id
   instance_type               = var.Ops_Manager_Instance_Type
-  key_name                    = var.PEM_Key_to_ssh_in_Ops_Man_VM
+  key_name                    = var.EC2_pem_key_name
   associate_public_ip_address = true
   iam_instance_profile        = aws_iam_instance_profile.ins-profile.name
 
