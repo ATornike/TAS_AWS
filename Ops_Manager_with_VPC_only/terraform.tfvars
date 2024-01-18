@@ -8,7 +8,7 @@ secret_key = "aws_secret_key"
 /* 
 EC2 key pair needs to be created and specified.
 Used under iaas-configurations in bosh_director_config.tf file for (key_pair_name) and (ssh_private_key)
-EC2_pem_key needs to be in one line format used in ssh_private_key 
+EC2_pem_key needs to be in one line format used in ssh_private_key and to ssh into the Ops Manager
 */
 EC2_pem_key_name = "vmware"
 
@@ -46,8 +46,6 @@ Ops_Manager_Version = "pivotal-ops-manager-v2.10.*"
 Ops_Manager_Instance_Type = "t3.xlarge"
 // Name of Ops Manager VM deployed in AWS. To identify the VM in AWS GUI.
 Ops_Manager_Instance_Name = "Ops_Manager"
-// Name of PEM key to ssh into the Ops Manager
-PEM_Key_to_ssh_in_Ops_Man_VM = "vmware"
 // IAM instance profile name
 iam_instance_profile_name = "VM-role-ops-manager-role-12345"
 
